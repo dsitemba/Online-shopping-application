@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="images/home.png">
+  <!----linking--->
+  <link rel="stylesheet" href="form.css">
+    <title>form</title>
+
+</head>
+<body>
+<!----id and class---->
+
+<!----for id you use #---->
+
+<h1 id="heading1">student information</h1>
+<!----simple form---->
+<form action="">
+
+     <!----fieldset encloses all the information by grouping them---->
+    <fieldset>
+        <!----legend gives title to the form used inside the form tag---->
+<legend>user information</legend>
+  <label for="fname">First name :</label>
+        <!----placeholder is temporary  used inside the input field---->
+      <input type="text"id="fname" placeholder="enter first name">
+  <br><br>
+  <label for="sname">Surname name :</label>
+  <input type="text"id="sname"placeholder="enter surname">
+  <br><br>
+  <label for="email">Email address :</label>
+  <input type="email"id="email" placeholder="enter email address">
+  <br><br>
+   <label for="pwd">Password :</label>
+  <input type="password"id="pwd" placeholder="password">
+  <br><br>
+
+    <!----buttons---->
+    <p>which is your favorite game?</p>
+    <input type="checkbox"> basketball<br>
+    <input type="checkbox"> football<br>
+    <input type="checkbox"> netball<br>
+    <input type="checkbox"> netball<br>
+<!----radio buttons---->
+    <p>which programming language are you proficient in?</p>
+    <input type="radio">Kotlin <br>
+    <input type="radio">c+++<br>
+    <input type="radio">java <br>
+    <input type="radio">python <br>
+
+    <!----text area is normally rectangular.free text---->
+
+    <p>fill in additional details</p>
+
+    <textarea name="" id="" cols="40" rows="5" placeholder="type here on any issue"></textarea><br>
+
+     <!----drop down menu options---->
+   Select nationality:
+    <select name="country" id="country">
+        <option value="kenya">kenya</option>
+           <option value="tanzania">tanzania</option>
+            <option value="ethiopia">ethiopia</option>
+            <option value="burundi">burundi </option>
+       </select> <br><br>
+
+ <button type="submit">Submit</button></fieldset>
+</form>
+<h1 id="patient">patient records</h1>
+<!----class you use fullstop #---->
+<h1 class="employee">employees details</h1>
+
+</body>
+</html>
